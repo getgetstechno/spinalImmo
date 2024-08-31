@@ -5,7 +5,7 @@ html{
 body {
   padding: 0px;
   background: #fff;
-  color: #333;
+  color: #000;
   margin: 0 auto;
   max-width: 900px;
   font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -16,10 +16,16 @@ a {
 }
 
 header {
-	background: #171e2e;
+	background: #db7918;
 	padding: .5em 3em;
-	color: #fff;
+	color: #144de8;
 	line-height: 1;
+}
+
+#startquiz {
+  font-size: 1.3em;
+  padding: 0.5em 1.8em;
+  border-radius: 0.2em;
 }
 
 header h1{
@@ -28,12 +34,12 @@ header h1{
 
 header h1 span{
 	display: inline;
-	color: rgba(255,255,255,.4);
+	color: #147ee8;
 }
 
 header span{
 	display: block;
-	color: rgba(255,255,255,.2);
+	color: #144de8;
 	font-weight: 300;
 	margin-bottom: 1.6em
 }
